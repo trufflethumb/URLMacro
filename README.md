@@ -8,5 +8,5 @@ let url = #URL("https://example.com")
 print(url.absoluteString) // prints https://example.com
 
 let invalidURL = #URL("not a url") // compiler error: Invalid URL: not a url
-let invalidUR2L = #URL("invalid-url") // compiler error: Invalid URL: invalid-url 
+let invalidURL2 = #URL("invalid-url") // compiler error: Invalid URL: invalid-url 
 ```
