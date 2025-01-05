@@ -5,6 +5,8 @@ A Swift macro that checks whether a URL is valid by using Foundation's `URL.init
 ## Usage
 ```swift
 let url = #URL("https://example.com")
-
 print(url.absoluteString) // prints https://example.com
+
+let invalidURL = #URL("not a url") // compiler error: Invalid URL: not a url
+let invalidUR2L = #URL("invalid-url") // compiler error: Invalid URL: invalid-url 
 ```
